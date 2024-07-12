@@ -12,8 +12,8 @@ namespace ScreenSound
         public string Artist { get; set; }
         public int Duration { get; set; }
         public bool IsAvailable { get; private set; }
-
-        public string Summarydescription => $"This song is by {Artist}";
+        public Genre MusicGenre { get; set; }
+        public string Summarydescription => $"This song is by {Artist}";     
        
 
         public Music(string name, string artist, int duration, bool isAvailable) 

@@ -8,20 +8,20 @@ namespace ScreenSound
 {
     public class Music
     {
-        public string Name { get; set; }
-        public string Artist { get; set; }
+        public string Name { get; }
+        public Band Artist { get; }
         public int Duration { get; set; }
         public bool IsAvailable { get; private set; }
         public Genre MusicGenre { get; set; }
         public string Summarydescription => $"This song is by {Artist}";     
        
 
-        public Music(string name, string artist, int duration, bool isAvailable) 
+        public Music(string name, Band artist, int duration, bool isAvailable) 
         { 
             Name = name;
-            Artist = artist;
+            Artist = artist; 
             Duration = duration;
-            IsAvailable = isAvailable;
+            IsAvailable = true;
         }
 
         public void SetIsAvailable(bool isAvailable)

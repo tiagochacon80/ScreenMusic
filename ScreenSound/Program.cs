@@ -1,23 +1,26 @@
 ﻿using ScreenSound;
+using System.ComponentModel;
 
 class Program
 {
     static void Main(string[] args)
     {     
 
-        Album albunofQueen = new Album();
-        albunofQueen.Name = "A night at the opera";
+       Band queen = new Band();
 
-        Console.WriteLine();
-        Music music1 = new Music("Roxane", "The Police", 273, true);
+       Album albumQueen = new Album("A night at the opera");
+       Music music1 = new Music("Love if my life", queen, 278, true);
+       Music music2 = new Music("Bohemian Rhapsody", queen, 354, false); 
+       
+       albumQueen.AddMusic(music1);
+       albumQueen.AddMusic(music2);
+       queen.AddAlbum(albumQueen);
+
         music1.DisplayInfo();
-        music1.SetIsAvailable(false);
+        music2.DisplayInfo();
+        albumQueen.DisplayMusicofAlbum();
+        queen.DisplayBandInfo();
 
-        Music music2 = new Music("Bohemian Rhapsody", "Queen", 289, true);
-
-        albunofQueen.AddMusic(music2);
-
-        albunofQueen.DisplayMusicofAlbum();
 
     }
 

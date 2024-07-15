@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ScreenSound
 {
-    internal class Album
+    public class Album
     {
         private List<Music> Musics = new List<Music>();
-        public string Name {  get; set; }
+        public string Name {  get; }
         public int TotalTime => Musics.Sum(m => m.Duration);
 
-        public Album() 
+        public Album(String name) 
         {
-            
+            Name = name;
         }
 
         public void AddMusic(Music music)

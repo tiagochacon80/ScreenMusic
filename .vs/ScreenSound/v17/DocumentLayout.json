@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\episode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\music.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|c:\\users\\tiago\\documents\\projetos .net\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766DC019-7B38-45D8-AAFB-C2EAD16AEE45}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,58 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Podcast.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Podcast.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Podcast.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Podcast.cs",
+              "RelativeToolTip": "ScreenSound\\Podcast.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T18:57:12.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Episode.cs",
+              "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Episode.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Episode.cs",
+              "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Episode.cs",
+              "RelativeToolTip": "ScreenSound\\Episode.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:48:25.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
               "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T19:13:49.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Music.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Music.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Music.cs",
               "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Music.cs",
               "RelativeToolTip": "ScreenSound\\Music.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAswBYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T19:12:46.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Album.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Album.cs",
               "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Album.cs",
               "RelativeToolTip": "ScreenSound\\Album.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA4AAAAiAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T19:01:43.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Band.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Band.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Band.cs",
               "ToolTip": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Band.cs",
               "RelativeToolTip": "ScreenSound\\Band.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-15T18:59:00.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\tiago\\Documents\\Projetos .Net\\ScreenSound\\ScreenSound\\Genre.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Genre.cs",

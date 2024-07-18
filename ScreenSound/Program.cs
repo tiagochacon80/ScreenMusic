@@ -1,27 +1,25 @@
-﻿using ScreenSound;
-using System.ComponentModel;
+﻿using System;
+using ScreenSound.Model;
 
-class Program
+namespace ScreenSound
 {
-    static void Main(string[] args)
-    {     
-
-       Band queen = new Band();
-
-       Album albumQueen = new Album("A night at the opera");
-       Music music1 = new Music("Love if my life", queen, 278, true);
-       Music music2 = new Music("Bohemian Rhapsody", queen, 354, false); 
-       
-       albumQueen.AddMusic(music1);
-       albumQueen.AddMusic(music2);
-       queen.AddAlbum(albumQueen);
-
-        music1.DisplayInfo();
-        music2.DisplayInfo();
-        albumQueen.DisplayMusicofAlbum();
-        queen.DisplayBandInfo();
-
-
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // Criando instância da banda e adicionando avaliação
+                Band band = new Band("The Beatles");
+                band.AddAlbum(new Album("Abbey Road"));
+                band.AddRating(new Rating(9, "Reviewer 1"));
+                band.AddRating(new Rating(8, "Reviewer 2"));
+                band.DisplayBandInfo();
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
     }
-
 }

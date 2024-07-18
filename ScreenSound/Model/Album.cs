@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Model
 {
     public class Album
     {
         private List<Music> Musics = new List<Music>();
-        public string Name {  get; }
+        public string Name { get; }
         public int TotalTime => Musics.Sum(m => m.Duration);
 
-        public Album(String name) 
+        public Album(string name)
         {
             Name = name;
         }

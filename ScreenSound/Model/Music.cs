@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Model
 {
     public class Music
     {
@@ -13,13 +13,13 @@ namespace ScreenSound
         public int Duration { get; set; }
         public bool IsAvailable { get; private set; }
         public Genre MusicGenre { get; set; }
-        public string Summarydescription => $"This song is by {Artist}";     
-       
+        public string Summarydescription => $"This song is by {Artist}";
 
-        public Music(string name, Band artist, int duration, bool isAvailable) 
-        { 
+
+        public Music(string name, Band artist, int duration, bool isAvailable)
+        {
             Name = name;
-            Artist = artist; 
+            Artist = artist;
             Duration = duration;
             IsAvailable = true;
         }
@@ -29,7 +29,7 @@ namespace ScreenSound
             IsAvailable = isAvailable;
         }
 
-        public void DisplayInfo() 
+        public void DisplayInfo()
         {
             Console.WriteLine(Summarydescription);
             Console.WriteLine($"Name: {Name}");
@@ -43,7 +43,7 @@ namespace ScreenSound
             {
                 Console.WriteLine("Purchase the Plan+");
             }
-            
+
         }
 
         public void DisplayArtistName()

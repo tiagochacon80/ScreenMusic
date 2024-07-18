@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ScreenSound
+namespace ScreenSound.Model
 {
     public class Podcast
     {
@@ -14,7 +14,7 @@ namespace ScreenSound
 
         public List<Episode> episodes = new();
         public int TotalEpisode => episodes.Count;
-        Podcast(string host, string name) 
+        Podcast(string host, string name)
         {
             Host = host;
             Name = name;
@@ -30,13 +30,13 @@ namespace ScreenSound
         {
             Console.WriteLine($"Podcast: {Name}");
             Console.WriteLine($"Host: {Host}");
-            foreach (var episode in episodes.OrderBy(e => e.Order)) 
+            foreach (var episode in episodes.OrderBy(e => e.Order))
             {
                 Console.WriteLine(episode.Summary);
             }
             Console.WriteLine($"Total Episodes: {TotalEpisode}");
-            
-            
-         }
+
+
+        }
     }
 }
